@@ -1,8 +1,8 @@
 .lBody {
   background: #ccc;
-  height: 812px;
+  height: 740px;
   margin: 4px auto;
-  max-height: calc(100vh - 8px);
+  /* max-height: calc(100vh - 8px); */
   width: 375px;
 }
 
@@ -84,7 +84,7 @@
   text-align: center;
 }
 
-.profile .edit {
+.edit {
   position: absolute;
   right: 0;
   top: 0;
@@ -124,4 +124,56 @@
 .skills span {
   color: #337ab7;
   cursor: pointer;
+}
+
+.project-list {
+  border-top: 1px solid #ddd;
+}
+
+.project {
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  margin-bottom: 4px;
+  padding: 4px;
+}
+
+.project .badge {
+  float: right;
+}
+
+.projects,
+.project-details {
+  padding-top: 1px;
+  position: relative;
+}
+
+.collaborator-heading {
+  clear: both;
+  line-height: 34px;
+  position: relative;
+}
+
+.collaborator-heading .badge {
+  vertical-align: initial;
+  margin-left: 100px;
+  position: absolute;
+  left: 97px;
+  top: 9px;
+}
+
+.controls {
+  float: right;
+}
+
+.controls .btn {
+  border: none;
+  border-radius: 50%;
+  padding: 6px;
+  width: 34px;
+}
+
+.project-details .details {
+  background: #dddddd66;
+  margin: 0 -15px;
+  padding: 15px;
 }
