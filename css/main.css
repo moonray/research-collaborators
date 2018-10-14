@@ -1,8 +1,8 @@
 .lBody {
   background: #ccc;
   height: 812px;
-  margin: 0 auto;
-  max-height: 100vh;
+  margin: 4px auto;
+  max-height: calc(100vh - 8px);
   width: 375px;
 }
 
@@ -16,6 +16,7 @@
 
 .lHeader {
   background: #44c45e;
+  border-radius: 4px 4px 0 0;
   flex: 0 0 auto;
   padding: 15px;
 }
@@ -26,10 +27,28 @@
 }
 
 .lFooter {
+  border-top: 1px solid #ddd;
   flex: 0 0 auto;
-  padding-top: 15px;
 }
 
-.nav-pills img {
+.icon {
   width: 16px;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  background: #44c45e;
+}
+
+.nav-pills > li > a {
+  border-radius: 0 0 4px 4px;
+}
+
+.nav-pills > li:first-child > a {
+  border-radius: 0 0 0 4px;
+}
+
+.nav-pills > li:last-child > a {
+  border-radius: 0 0 4px 0;
 }
