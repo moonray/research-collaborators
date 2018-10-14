@@ -35,6 +35,40 @@
   border-top: none;
 }
 
+.logo {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.logo img {
+  height: 100px;
+}
+
+.atthetop {
+  margin-top: 50px;
+}
+
+.divider {
+  margin: 2em 0;
+  position: relative;
+  text-align: center;
+}
+
+.divider::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  border-top: 1px solid #ddd;
+  width: 100%;
+}
+
+.divider span {
+  background: #fff;
+  padding: 4px;
+  position: relative;
+}
+
 .icon {
   width: 16px;
 }
