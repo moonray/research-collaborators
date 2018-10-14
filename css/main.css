@@ -31,8 +31,30 @@
   flex: 0 0 auto;
 }
 
+.lFooter.login {
+  border-top: none;
+}
+
 .icon {
   width: 16px;
+}
+
+.tag {
+  width: 12px;
+}
+
+.tag img {
+  fill: #ddd;
+}
+
+.sso {
+  position: relative;
+}
+
+.sso img {
+  left: 8px;
+  position: absolute;
+  top: 8px;
 }
 
 .nav-pills > li.active > a,
@@ -51,4 +73,55 @@
 
 .nav-pills > li:last-child > a {
   border-radius: 0 0 4px 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.profile {
+  position: relative;
+  text-align: center;
+}
+
+.profile .edit {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.profile .avatar {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px 0 #00000099;
+  display: inline-block;
+  margin: 15px auto 0;
+  height: 150px;
+  overflow: hidden;
+  width: 150px;
+}
+
+.profile .name {
+  font-size: 24px;
+}
+
+.profile label {
+  margin-bottom: 0;
+}
+
+.profile .form-group {
+  margin-top: 1em;
+}
+
+.profile .details {
+  background: #dddddd66;
+  margin: 0 -15px;
+  padding: 1px 15px;
+  text-align: left;
+}
+
+.areasofinterest span,
+.skills span {
+  color: #337ab7;
+  cursor: pointer;
 }

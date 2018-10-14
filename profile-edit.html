@@ -35,38 +35,43 @@
     </header>
 
     <section class="lContent">
-      <div class="profile">
-        <button class="btn btn-default edit" type="button" onclick="window.location.href='profile-edit.html'"><img src="open-iconic/svg/pencil.svg" class="icon" /></button>
-        <div class="avatar"><img src="http://i.pravatar.cc/150?img=32" /></div>
-        <div class="name">Marie X, PHD</div>
-        <div class="affiliation">University of Florida</div>
-
-        <div class="form-group">
-          <label for="workingstyle">Working style</label>
-          <div class="workingstyle">I like to work in groups.</div>
-        </div>
-
-        <div class="details">
-          <div class="form-group">
-            <label for="areasofinterest">Areas of interest</label>
-            <div class="areasofinterest"><span><img src="open-iconic/svg/tag.svg" class="tag" /> field research</span>, <span><img src="open-iconic/svg/tag.svg" class="tag" /> molecular biology</span>, <span><img src="open-iconic/svg/tag.svg" class="tag" /> malaria</span></div>
-          </div>
-
-          <div class="form-group">
-            <label for="skills">Skills</label>
-            <div class="skills"><span><img src="open-iconic/svg/tag.svg" class="tag" /> PCR</span>, <span><img src="open-iconic/svg/tag.svg" class="tag" /> next generation sequencing (illumina)</span>, <span><img src="open-iconic/svg/tag.svg" class="tag" /> DNA
-                extraction</span>, <span><img src="open-iconic/svg/tag.svg" class="tag" /> evolutionary analysis</span></div>
-          </div>
-
-          <div class="form-group">
-            <div class="links">
-              <div class="link"><img src="open-iconic/svg/share-boxed.svg" class="tag" /> <a>Home page</a></div>
-              <div class="link"><img src="open-iconic/svg/share-boxed.svg" class="tag" /> <a>Google Scholar</a></div>
-              <div class="link"><img src="open-iconic/svg/share-boxed.svg" class="tag" /> <a>LinkedIn</a></div>
+        <div class="profile">
+            <div class="section-heading">Profile</div><br/>
+            <button>Edit</button>
+            <br/>
+            <div class="profile-fields">
+                <img class="profile-image" style="width:300px; border-style:solid; border-color:black; border-width:2px;" src=""/><br/>
+                <a href="#">New Photo</a><br/>
+                <hr/>
+                <label for="X">Name</label> <input placeholder="full display name"/><br/>
+                <label for="X">Affiliation</label> <input placeholder="organizaiton / department"/><br/>
+                <label for="X">Email</label> <input placeholder="confirmation/contact email address"/><br/>
+                <br/>
+                <hr/>
+                <label for="X">Areas of Research</label><br/>
+                <div class="profile-areas-of-research">
+                Drosophilia <img src="/open-iconic/svg/x.svg" title="Remove"><br/>
+                MalariaDrosophilia <img src="/open-iconic/svg/x.svg" title="Remove"><br/>
+                <a href="#" onClick="newAreaOfResearch()">New</a><br/>
+                </div>
+                <br/>
+                <hr/>     
+                <label for="X">Links</label><br/>
+                <div class="profile-areas-of-research">
+                Google Scholar <img src="/open-iconic/svg/x.svg" title="Remove"><br/>
+                Linked In <img src="/open-iconic/svg/x.svg" title="Remove"><br/>
+                <a href="#" onClick="newAreaOfResearch()">New</a><br/>
+                </div>
+                <br/>
+                <hr/>
+                <label for="X">Skills</label><br/>
+                <div class="profile-areas-of-research">
+                Data Analysis <img src="/open-iconic/svg/x.svg" title="Remove"><br/>
+                <a href="#" onClick="newAreaOfResearch()">New</a><br/>
+                </div>
+                <br/>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <footer class="lFooter">
