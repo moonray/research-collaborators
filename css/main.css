@@ -1,0 +1,35 @@
+.lBody {
+  background: #ccc;
+  height: 812px;
+  margin: 0 auto;
+  max-height: 100vh;
+  width: 375px;
+}
+
+.lWrapper {
+  background: #fff;
+  border-radius: 4px 4px 4px 4px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.lHeader {
+  background: #44c45e;
+  flex: 0 0 auto;
+  padding: 15px;
+}
+
+.lContent {
+  flex: 1 1 auto;
+  padding: 15px;
+}
+
+.lFooter {
+  flex: 0 0 auto;
+  padding-top: 15px;
+}
+
+.nav-pills img {
+  width: 16px;
+}
